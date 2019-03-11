@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Session Test Automation Suite">
+	<test name="Different TestNG Feature Test">
+		<classes>
+			<class name="com.naveen.testNG.assertionsTest" />
+			<class name="com.naveen.testNG.exceptionTimeOutTest" />
+			<class name="com.naveen.testNG.expectedException_handeling" />
+			<class name="com.naveen.testNG.googleTest" />
+			<class name="com.naveen.testNG.groupsAnnotation" />
+			<class name="com.naveen.testNG.invocationCountTest" />
+			<class name="com.naveen.testNG.methodDependencies" />
+			<class name="com.naveen.testNG.setPriority" />
+		</classes>
+
+	</test>
+</suite>

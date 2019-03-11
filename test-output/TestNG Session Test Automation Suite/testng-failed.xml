@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test thread-count="5" name="Different TestNG Feature Test(failed)">
+    <classes>
+      <class name="com.naveen.testNG.exceptionTimeOutTest">
+        <methods>
+          <include name="infiniteLoopTest"/>
+        </methods>
+      </class> <!-- com.naveen.testNG.exceptionTimeOutTest -->
+      <class name="com.naveen.testNG.methodDependencies">
+        <methods>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.naveen.testNG.methodDependencies -->
+      <class name="com.naveen.testNG.assertionsTest">
+        <methods>
+          <include name="googleTitleTest"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.naveen.testNG.assertionsTest -->
+    </classes>
+  </test> <!-- Different TestNG Feature Test(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->
